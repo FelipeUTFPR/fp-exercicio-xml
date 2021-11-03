@@ -45,6 +45,10 @@ console.log(addedApps.join('\n'));
 
 // (Exercício 4) Identifique quais funções são high-order
     // Adicione um comentário identificando-as
+    //isAddedAfter2018AndUpdatedAfter2019
+    //addedApps/filter/map
+    
+
 
 // (Exercício 5) Crie um novo arquivo main2.js (baseado no main.js) que seleciona todos as apps adicionadas
 // depois do ano 2000 e atualizadas em 2020. Ao imprimir as apps, além do nome, imprima
