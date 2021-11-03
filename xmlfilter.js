@@ -9,6 +9,12 @@ const contentOfAdded = contentOfTag(R.__, 'added');
 const contentOfUpdated = contentOfTag(R.__, 'lastupdated');
 const contentOfID = contentOfTag(R.__, 'id');
 const getGitHubProject = xmlNode => contentOfSource(xmlNode).replace('https://github.com/', '');
+const returnApp = xmlNode => {
+    return {name: getGitHubProject(xmlNode),
+            contAdd: contentOfAdded(xmlNode),
+            contUp: contentOfUpdated(xmlNode)
+        } 
+                         }
 
 const elementsToArray = nodes => {
     const arr = [];
@@ -39,5 +45,9 @@ module.exports = {
     elementsToArray,
     getGitHubProject,
     contentOfSource,
-    contentOfID
+    contentOfID,
+    contentOfAdded,
+    contentOfUpdated,
+    contentOfSource,
+    returnApp
 };
