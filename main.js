@@ -17,9 +17,22 @@ console.log(addedApps.join('\n'));
  
 // (Exercício 1) Identifique todas as declarações de funções neste projeto
     // Adicione um comentário identificando-as
+    //Arquivo xmlfilter.js
+
+    //isValid Line - Line 20
+    //elementsToArray - Line 13
+    //getGitHubProject - Line 11
+    //contentOfSource - Line 7
+    //contentOfAdded - Line 8
+    //contentOfUpdated - Line 9
+    //contentOfID - Line 10
+    
+   
 
 // (Exercício 2) Identifique quais funções no projeto possuem efeitos colaterais (side-effects)
     // Adicione um comentário identificando-as
+    //elementsToArray
+    //getGitHubProject
 
 // (Exercício 3) Identifique quais funções são curried
     // Adicione um comentário identificando-as
